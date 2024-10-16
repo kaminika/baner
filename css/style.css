@@ -1,23 +1,10 @@
-.scroll {
-    overflow: hidden;
-    padding: 0;
-    width: 300px;
-    height: 300px;
-border:1px solid #000;
-}
-.scroll img {
-    transition-duration: 3s;
-    margin: 0 auto;
-    display: block;
-}
-.scroll img:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    z-index: 0;
-}
-
 
  .banner {
     position: fixed;
+    top: 50px;
+    left: 150px;
+ }
+
+ .scroll {
+    transform: scale(1.5, 1.5);
  }

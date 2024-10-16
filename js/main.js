@@ -1,11 +1,11 @@
 const baner = document.getElementsByClassName("banner");
 
 console.log(baner);
-        
-/* banerScroll {
-    baner.addEventListener("wheel", () => {
-        contentFull[i].classList.remove("scroll");
-    })
-} */
+    
 
-baner.classList.add("hidden");
+
+baner.addEventListener('scroll', function() {
+	var scroll = baner.scrollY;
+  var sidebar = getElementsByClassName("scroll");
+  sidebar.style.transform = 'translateY(' + scroll + 'px)';
+});
